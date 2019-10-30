@@ -78,5 +78,8 @@ public class CityList {
         return cities.size();
     }
 
-    public void deleteList() { }
+    /**
+     * Delete the entire list
+     */
+    public void deleteList() { cities.removeAll(cities); }
 }
